@@ -1,0 +1,3 @@
+Betterboxd: It is an application for looking most popular 10 movies in letterboxd application. Table View and Collection View is used.
+FindPharmacy: It is an application which uses database that have information about pharmacies along the Turkey. You can select an region and find the details of the pharmacy.
+DrawApp: It is an SwiftUI application. It has 10 names and randomly draw 3 people out of them.

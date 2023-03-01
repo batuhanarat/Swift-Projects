@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2990B60B2933B247009CFD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B60A2933B247009CFD68 /* AppDelegate.swift */; };
+		2990B60D2933B247009CFD68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B60C2933B247009CFD68 /* SceneDelegate.swift */; };
+		2990B60F2933B247009CFD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B60E2933B247009CFD68 /* ViewController.swift */; };
+		2990B6122933B247009CFD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2990B6102933B247009CFD68 /* Main.storyboard */; };
+		2990B6142933B248009CFD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2990B6132933B248009CFD68 /* Assets.xcassets */; };
+		2990B6172933B248009CFD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2990B6152933B248009CFD68 /* LaunchScreen.storyboard */; };
+		2990B6222933B285009CFD68 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B6212933B285009CFD68 /* City.swift */; };
+		2990B6242933B2BE009CFD68 /* PharmacyDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B6232933B2BE009CFD68 /* PharmacyDataSource.swift */; };
+		2990B6262933B2E2009CFD68 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B6252933B2E2009CFD68 /* CityViewController.swift */; };
+		2990B6292933B36D009CFD68 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B6282933B36D009CFD68 /* CityTableViewCell.swift */; };
+		2990B62B2933BDE7009CFD68 /* CityDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B62A2933BDE7009CFD68 /* CityDataDelegate.swift */; };
+		2990B62D2933C9C3009CFD68 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B62C2933C9C3009CFD68 /* Region.swift */; };
+		2990B62F2933CA16009CFD68 /* RegionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B62E2933CA16009CFD68 /* RegionViewController.swift */; };
+		2990B6312933CB14009CFD68 /* RegionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B6302933CB14009CFD68 /* RegionTableViewCell.swift */; };
+		2990B66129344F8E009CFD68 /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B66029344F8E009CFD68 /* Pharmacy.swift */; };
+		2990B66329344FCE009CFD68 /* PharmacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B66229344FCE009CFD68 /* PharmacyViewController.swift */; };
+		2990B66529344FF2009CFD68 /* PharmacyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B66429344FF2009CFD68 /* PharmacyTableViewCell.swift */; };
+		29ECC81C2935458B00DEF8F1 /* PharmacyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECC81B2935458B00DEF8F1 /* PharmacyDetailViewController.swift */; };
+		29ECC81E293545C100DEF8F1 /* DetailedPharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECC81D293545C100DEF8F1 /* DetailedPharmacy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2990B6072933B247009CFD68 /* FindPharmacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindPharmacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2990B60A2933B247009CFD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2990B60C2933B247009CFD68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2990B60E2933B247009CFD68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2990B6112933B247009CFD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2990B6132933B248009CFD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2990B6162933B248009CFD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2990B6182933B248009CFD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2990B6212933B285009CFD68 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		2990B6232933B2BE009CFD68 /* PharmacyDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDataSource.swift; sourceTree = "<group>"; };
+		2990B6252933B2E2009CFD68 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		2990B6282933B36D009CFD68 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		2990B62A2933BDE7009CFD68 /* CityDataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDataDelegate.swift; sourceTree = "<group>"; };
+		2990B62C2933C9C3009CFD68 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		2990B62E2933CA16009CFD68 /* RegionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionViewController.swift; sourceTree = "<group>"; };
+		2990B6302933CB14009CFD68 /* RegionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTableViewCell.swift; sourceTree = "<group>"; };
+		2990B66029344F8E009CFD68 /* Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
+		2990B66229344FCE009CFD68 /* PharmacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyViewController.swift; sourceTree = "<group>"; };
+		2990B66429344FF2009CFD68 /* PharmacyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyTableViewCell.swift; sourceTree = "<group>"; };
+		29ECC81B2935458B00DEF8F1 /* PharmacyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDetailViewController.swift; sourceTree = "<group>"; };
+		29ECC81D293545C100DEF8F1 /* DetailedPharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPharmacy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2990B6042933B247009CFD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2990B5FE2933B247009CFD68 = {
+			isa = PBXGroup;
+			children = (
+				2990B6092933B247009CFD68 /* FindPharmacy */,
+				2990B6082933B247009CFD68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2990B6082933B247009CFD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2990B6072933B247009CFD68 /* FindPharmacy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2990B6092933B247009CFD68 /* FindPharmacy */ = {
+			isa = PBXGroup;
+			children = (
+				2990B6272933B328009CFD68 /* TableCells */,
+				2990B6202933B26E009CFD68 /* Controller */,
+				2990B61F2933B267009CFD68 /* Model */,
+				2990B60C2933B247009CFD68 /* SceneDelegate.swift */,
+				2990B60A2933B247009CFD68 /* AppDelegate.swift */,
+				2990B60E2933B247009CFD68 /* ViewController.swift */,
+				2990B6102933B247009CFD68 /* Main.storyboard */,
+				2990B6132933B248009CFD68 /* Assets.xcassets */,
+				2990B6152933B248009CFD68 /* LaunchScreen.storyboard */,
+				2990B6182933B248009CFD68 /* Info.plist */,
+			);
+			path = FindPharmacy;
+			sourceTree = "<group>";
+		};
+		2990B61F2933B267009CFD68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2990B6212933B285009CFD68 /* City.swift */,
+				2990B6232933B2BE009CFD68 /* PharmacyDataSource.swift */,
+				2990B62A2933BDE7009CFD68 /* CityDataDelegate.swift */,
+				2990B62C2933C9C3009CFD68 /* Region.swift */,
+				2990B66029344F8E009CFD68 /* Pharmacy.swift */,
+				29ECC81D293545C100DEF8F1 /* DetailedPharmacy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2990B6202933B26E009CFD68 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2990B6252933B2E2009CFD68 /* CityViewController.swift */,
+				2990B62E2933CA16009CFD68 /* RegionViewController.swift */,
+				2990B66229344FCE009CFD68 /* PharmacyViewController.swift */,
+				29ECC81B2935458B00DEF8F1 /* PharmacyDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2990B6272933B328009CFD68 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				2990B6282933B36D009CFD68 /* CityTableViewCell.swift */,
+				2990B6302933CB14009CFD68 /* RegionTableViewCell.swift */,
+				2990B66429344FF2009CFD68 /* PharmacyTableViewCell.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2990B6062933B247009CFD68 /* FindPharmacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2990B61B2933B248009CFD68 /* Build configuration list for PBXNativeTarget "FindPharmacy" */;
+			buildPhases = (
+				2990B6032933B247009CFD68 /* Sources */,
+				2990B6042933B247009CFD68 /* Frameworks */,
+				2990B6052933B247009CFD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindPharmacy;
+			productName = FindPharmacy;
+			productReference = 2990B6072933B247009CFD68 /* FindPharmacy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2990B5FF2933B247009CFD68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2990B6062933B247009CFD68 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2990B6022933B247009CFD68 /* Build configuration list for PBXProject "FindPharmacy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2990B5FE2933B247009CFD68;
+			productRefGroup = 2990B6082933B247009CFD68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2990B6062933B247009CFD68 /* FindPharmacy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2990B6052933B247009CFD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2990B6172933B248009CFD68 /* LaunchScreen.storyboard in Resources */,
+				2990B6142933B248009CFD68 /* Assets.xcassets in Resources */,
+				2990B6122933B247009CFD68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2990B6032933B247009CFD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2990B66529344FF2009CFD68 /* PharmacyTableViewCell.swift in Sources */,
+				2990B66329344FCE009CFD68 /* PharmacyViewController.swift in Sources */,
+				29ECC81E293545C100DEF8F1 /* DetailedPharmacy.swift in Sources */,
+				2990B62F2933CA16009CFD68 /* RegionViewController.swift in Sources */,
+				29ECC81C2935458B00DEF8F1 /* PharmacyDetailViewController.swift in Sources */,
+				2990B62D2933C9C3009CFD68 /* Region.swift in Sources */,
+				2990B6242933B2BE009CFD68 /* PharmacyDataSource.swift in Sources */,
+				2990B6292933B36D009CFD68 /* CityTableViewCell.swift in Sources */,
+				2990B60F2933B247009CFD68 /* ViewController.swift in Sources */,
+				2990B60B2933B247009CFD68 /* AppDelegate.swift in Sources */,
+				2990B66129344F8E009CFD68 /* Pharmacy.swift in Sources */,
+				2990B6222933B285009CFD68 /* City.swift in Sources */,
+				2990B60D2933B247009CFD68 /* SceneDelegate.swift in Sources */,
+				2990B6262933B2E2009CFD68 /* CityViewController.swift in Sources */,
+				2990B62B2933BDE7009CFD68 /* CityDataDelegate.swift in Sources */,
+				2990B6312933CB14009CFD68 /* RegionTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2990B6102933B247009CFD68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2990B6112933B247009CFD68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2990B6152933B248009CFD68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2990B6162933B248009CFD68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2990B6192933B248009CFD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2990B61A2933B248009CFD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2990B61C2933B248009CFD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindPharmacy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = batuhanarat.FindPharmacy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2990B61D2933B248009CFD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindPharmacy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = batuhanarat.FindPharmacy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2990B6022933B247009CFD68 /* Build configuration list for PBXProject "FindPharmacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2990B6192933B248009CFD68 /* Debug */,
+				2990B61A2933B248009CFD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2990B61B2933B248009CFD68 /* Build configuration list for PBXNativeTarget "FindPharmacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2990B61C2933B248009CFD68 /* Debug */,
+				2990B61D2933B248009CFD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2990B5FF2933B247009CFD68 /* Project object */;
+}
